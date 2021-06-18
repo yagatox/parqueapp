@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_home"></string>
+    <string name="title_dashboard"></string>
+    <string name="title_notifications"></string>
+    <string name="title_activity_busqueda"></string>
+    <string name="title_activity_zona"></string>
+    <string name="title_activity_desarrolladores">"</string>
+    <string name="title_activity_pantalla_resultado_busqueda">UdeChillanPark</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mapa">map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

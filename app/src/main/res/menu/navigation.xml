@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_busqueda"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Busqueda Libre" />
+    <item
+        android:id="@+id/navigation_home"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title=" Zona" />
+    <item
+        android:id="@+id/navigation_desarrolladores"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Sobre la app" />
+
+</menu>

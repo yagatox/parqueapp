@@ -1,0 +1,65 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmento_Zona"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/zona1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:backgroundTint="#0018A8"
+        android:text="Dirección General"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toTopOf="@+id/zona3"
+        app:layout_constraintEnd_toStartOf="@+id/zona2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/zona2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:backgroundTint="#ffbf00"
+        android:text="ciencias veterinarias"
+        app:layout_constraintBottom_toTopOf="@+id/zona4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/zona1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/zona3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:backgroundTint="#ffbf00"
+        android:text=" Agronomía"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/zona4"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zona1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/zona4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:backgroundTint="#0018A8"
+        android:text="Ingeniería Agrícola"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/zona3"
+        app:layout_constraintTop_toBottomOf="@+id/zona2"
+        app:layout_constraintVertical_bias="0.56" />
+
+</android.support.constraint.ConstraintLayout>

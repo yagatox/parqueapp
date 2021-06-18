@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexander.tesis.Sobre_App">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f3fdff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/foto_escudo_sobre_app"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:layout_margin="8dp"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto_historia_parte_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_margin="8dp"
+                android:maxLines="@android:integer/status_bar_notification_info_maxnum"
+                android:text="Más de cien especies son parte del patrimonio arbóreo con el que actualmente cuenta el parque del Campus Chillán, diversas en tamaños, formas, colores y edades que van de los dos a más de cien años de vida, entregando en cada área una imagen visual armoniosa y acogedora en un perfecto equilibrio con el entorno universitario, contribuyendo al medio ambiente y en especial a nuestra Ciudad de Chillán que en fechas claves ha evidenciado los niveles más altos de contaminación a nivel nacional, por tanto el valor de nuestro “pulmón verde” es sin duda gigantesco. Han pasado los años y con ellos el deterioro natural de algunas especies, dejando vestigios e innumerables recuerdos a todos quienes fueron amparados bajo la sombra de algún ejemplar. Por ello el plan de mantención y recambio de especies por parte de la Sección de Parques y Jardines ha sido fundamental.  La aplicación “UdeChillanPark” está diseñada en una primera etapa para Smartphone con sistema operativo Android y nace con el propósito de compartir la riqueza de nuestra flora y entregar información relevante de las especies arbóreas del Campus Chillán. Reúne una compilación de las especies separadas en cuatro zonas de acuerdo a la ubicación de estas al interior del Campus; Dirección General, Ciencias Veterinarias, Agronomía e Ingeniería Agrícola. Pensada principalmente en la comunidad universitaria, en cada una de estas zonas podrán reconocer especies In situ que observan diariamente, pero sin mayor información al respecto. Se han dispuesto dos fotos por cada especie, una a distancia mostrando el entorno y otra en primer plano de las hojas o flores para una mejor identificación. La descripción general por especie irá en aumento, quedando completa el primer semestre del año 2018.  Esta App queda dispuesta de forma gratuita a todos nuestros visitantes que diariamente transitan por el interior del Campus siendo partes del grato y acogedor ambiente que generan nuestros parques. "
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textIsSelectable="true"
+                    android:maxLines="@android:integer/status_bar_notification_info_maxnum"
+                    android:text="Desarrolladores"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/texto_desarrolladores_parte_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="@android:integer/status_bar_notification_info_maxnum"
+                    android:text="El desarrollo y puesta en marcha de esta App es gracias al trabajo conjunto de los alumnos Cristopher Zenteno, Alejandro Bucarei y Manuel González de la carrera de Técnico nivel superior Analista Programador del Instituto profesional Virginio Gómez, la valiosa colaboración del Doctor Víctor Finot Saldías, docente de la Facultad de Agronomía y Wilson González Saavedra, Jefe de la Sección de Parques y Jardines del Campus Chillán."
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textIsSelectable="true"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/foto_antigua_frontis"
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            android:layout_margin="8dp"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto_desarrolladores_parte_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="@android:integer/status_bar_notification_info_maxnum"
+                android:text="Frontis de edifico central en los años cincuenta, se aprecia la especie Trachycarpus fortunei (izquierda) que hoy después de 60 años se puede encontrar en el mismo lugar."
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textIsSelectable="true"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
